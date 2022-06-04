@@ -236,7 +236,7 @@
   }
   
   /* media queries */
-  @media (min-width:992px) {
+  @media (min-width:990px) {
    
     .menu-mobile{
       display: none;
