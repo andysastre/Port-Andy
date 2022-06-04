@@ -106,7 +106,7 @@
   
   }
   .about-me {
-    min-width: 265px;
+   
     margin: 0 25px 0 25px;
   }
   .about-me h2{
@@ -150,7 +150,7 @@
   .content-skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-width: 265px;
+   
     margin: 0 25px 0 25px;
   }
   .content-skills p{
@@ -159,7 +159,7 @@
   }
   /* xp */
   .xp {
-    min-width: 265px;
+   
     margin: 50px 25px 0 25px;
   }
   
@@ -182,7 +182,7 @@
   /* portfolio */
   .port {
     padding-top: 25px;
-    min-width: 265px;
+   
    
     background-image: url(/img/Group\ 97.svg);
     background-repeat: no-repeat;
@@ -208,13 +208,13 @@
   /* footer */
   footer{
     text-align: center;
-    min-width: 265px;
+   
     margin: 25px 25px 0 25px;
   }
   .container-footer{
     display: flex;
     justify-content: center;
-    min-width: 265px;
+   
     margin: 0 25px 25px 25px;
   }
   .border{
