@@ -1,18 +1,27 @@
+
+
+
+/*con :root puedo declarar variables en css */
 :root {
     --primary-color: #020403;
     --secondary-color: #adadad;
     --third-color: #ffffff;
     --font-family: "Rubik", sans-serif;
-  }
-  /* general settings */
-  html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
+  }   /*/*
+  
+  
+  /* general */
+  
   *,
   *:before,
   *:after {
     box-sizing: inherit;
+  }
+
+
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   body {
     background-color: var(--primary-color);
@@ -57,9 +66,7 @@
     display: block;
     cursor: pointer;
   }
-  .rotate{
-    transform: rotate(-90deg);
-  }
+  
   .hidden{
     display: none;
   }
@@ -83,9 +90,10 @@
   .cont-main {
     margin: 0 auto;
     background-image: url(/img/Layer.svg);
+    background-size:contain;
     background-repeat: no-repeat;
     background-position:bottom;
-    background-size:contain;
+   
   }
   .cont-media img{
     padding: 0 10px 100px 10px;
@@ -105,13 +113,14 @@
     margin-top: 0;
   }
   
-  /* SKILLS, uso de la s para ahorrar tiempo */
+  /* SKILLS */
   .s-tittle{
     background-image: url(/img/Group\ 97.svg);
     background-repeat: no-repeat;
+    background-size: 25%;
     background-position-x:115% ;
     background-position-y:0 ;
-    background-size: 25%;
+   
   }
   .s-tittle h2{
     margin-left: 25px;
@@ -119,28 +128,30 @@
   .s-img{
     background-color: #1c1616;
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100px;
     height: 100px;
     text-align: center;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
   }
   .skills{
     text-align: center;
+  }
+  
+  .skill-img img{
+    display:inline-block;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
   }
   .content-skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-width: 265px;
     margin: 0 25px 0 25px;
-  }
-  .skill-img img{
-    display:inline-block;
-    margin: 0 auto;
-    width: 75px;
-    height: 75px;
   }
   .content-skills p{
     color: var(--third-color);
@@ -151,18 +162,23 @@
     min-width: 265px;
     margin: 50px 25px 0 25px;
   }
-  .xp-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  
+  .xp-border{
+    margin-bottom: 0;
+    border-bottom: 0.5px solid var(--secondary-color);
   }
   .xp-content span{
     color: var(--third-color);
     font-weight: bold;
   }
-  .xp-border{
-    margin-bottom: 0;
-    border-bottom: 0.5px solid var(--secondary-color);
+
+  .xp-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
+   
+  
+  
   /* portfolio */
   .port {
     padding-top: 25px;
@@ -174,18 +190,21 @@
     background-position-y:0 ;
     background-size: 25%;
   }
-  .port h2{
-    margin: 0 25px 25px 25px;
+  
+  .port-content{
+    display: flex;
+    flex-wrap: wrap;
   }
   .port img {
     margin: 0 auto 25px auto;
     max-width: 400px;
     min-width: 300px;
   }
-  .port-content{
-    display: flex;
-    flex-wrap: wrap;
+
+  .port h2{
+    margin: 0 25px 25px 25px;
   }
+  
   /* footer */
   footer{
     text-align: center;
@@ -253,8 +272,9 @@
       margin: 0 50px;
     }
     h2{
-      text-align: center;
       font-size: 50px;
+      text-align: center;
+     
     }
     h1{
       font-size: 150px;
@@ -279,7 +299,8 @@
       background-size: 20%;
     }
     .content-media img{
-      padding: 0 10px 200px 10px;
       width: 80px;
+      padding: 0 10px 200px 10px;
+     
     }
   }
