@@ -238,7 +238,7 @@
   /* media queries */
   @media (min-width:990px) {
    
-    .menu-mobile{
+    .mobile-menu{
       display: none;
     }
     .hidden{
@@ -260,8 +260,9 @@
       padding-top: 35px;
     }
     .content-skills{
-      max-width: 992px;
+      max-width: 99,2rem;
       margin: 0 auto;
+      
     }
     .content-exp{
       max-width: 800px;
@@ -277,7 +278,7 @@
      
     }
     h1{
-      font-size: 150px;
+      font-size: 100px;
       margin-top: 0;
       margin-bottom: 0;
     }
