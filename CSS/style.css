@@ -31,7 +31,7 @@
   }
   h1 {
     color: var(--third-color);
-    font-size: 40px;
+    font-size: 70px;
   }
   h2 {
     font-size: 25px;
@@ -160,7 +160,7 @@
   /* xp */
   .xp {
    
-    margin: 50px 25px 0 25px;
+    margin: 3.5rem 2.5rem 0 2.5rem;
   }
   
   .xp-border{
@@ -171,12 +171,15 @@
     color: var(--third-color);
     font-weight: bold;
   }
-
+  .xp-content p{
+    margin-bottom: 0;
+  }
   .xp-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-   
+ 
+  
   
   
   /* portfolio */
@@ -236,7 +239,7 @@
   }
   
   /* media queries */
-  @media (min-width:990px) {
+  @media (min-width:992px) {
    
     .mobile-menu{
       display: none;
@@ -253,22 +256,22 @@
        max-width:max-content; 
       /* margin: 0 auto; */
     }
-    .acerca-de-mi{
+    .about-me{
       margin: 0 50px;
     }
-    .skills-tittle{
+    .s-tittle{
       padding-top: 35px;
     }
     .content-skills{
-      max-width: 99,2rem;
-      margin: 0 auto;
+      max-width: 99.2rem;
+    margin: 0 auto;
       
     }
-    .content-exp{
-      max-width: 800px;
+    .xp-content{
+      max-width: 80.0rem;
       margin: 0 auto;
     }
-    .content-portfolio{
+    .port-content{
   
       margin: 0 50px;
     }
@@ -293,13 +296,15 @@
     p{
       font-size: 18px;
     }
-    .portafolio{
+    .port{
       background-size: 15%;
     }
-    .skills-tittle{
+    .s-tittle{
       background-size: 20%;
+    
+      
     }
-    .content-media img{
+    .cont-media img{
       width: 80px;
       padding: 0 10px 200px 10px;
      
